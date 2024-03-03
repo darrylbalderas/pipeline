@@ -71,4 +71,4 @@
 1. Test out goreleaser to create archives in `dist` folder `goreleaser release --snapshot --clean`
 1. Setup github credentials `export GITHUB_TOKEN="YOUR_GH_TOKEN"`
 1. Create your first tag `git tag -a v0.1.0 -m "First release" && git push origin v0.1.0`
-1. Create a release `goreleaser release`
+1. Create a release `goreleaser release --clean`
