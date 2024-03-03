@@ -1,0 +1,7 @@
+actions:
+  - data: data.json
+    cmd: cat data.json
+    repeat: 3
+  - data: ""
+    cmd: ls
+    repeat: 1
